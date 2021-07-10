@@ -21,6 +21,9 @@ if(isset($_SESSION["favanimal"])){
 $_SESSION["favcolor"] = "green";
 $_SESSION["favanimal"] = "cat";
 echo "Session variables are set.";
+
+
+echo ini_get('session.save_path');
 ?>
 
 </body>

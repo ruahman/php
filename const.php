@@ -1,5 +1,9 @@
 <?php
-define("GREETING", "Welcome to W3Schools.com!");
+
+define('WIDTH', '1140px');
+echo WIDTH;
+
+const GREETING = "Welcome to W3Schools.com!";
 echo GREETING;
-?>
+
 
