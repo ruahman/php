@@ -1,4 +1,5 @@
 <?php
+
 $servername = "localhost";
 $username = "root";
 $password = "";
@@ -13,11 +14,10 @@ if ($conn->connect_error) {
 
 $sql = "UPDATE MyGuests SET lastname='Doe' WHERE id=2";
 
-if ($conn->query($sql) === TRUE) {
+if ($conn->query($sql) === true) {
     echo "Record updated successfully";
 } else {
     echo "Error updating record: " . $conn->error;
 }
 
 $conn->close();
-?>

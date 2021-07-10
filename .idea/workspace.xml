@@ -1,75 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f760c3f-3670-49d7-a245-345de288d042" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class-const.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cookie.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/create-namespace.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/date.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exception.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/filter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/form.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include-namespace.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iterables.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keep-values.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-sqli-connect.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysqli-create-db-procedural.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysqli-create-db.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysqli-create-table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysqli-delete.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysqli-insert.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysqli-procedure-create-table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysqli-select.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysqli-update.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdo-connect.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdo-create-database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pdo-create-table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prepared-query.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/required.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static-class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static-prop.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/time-zone.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trait.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/laravel-developer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/maxresdefault.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/validate-email-url.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/validation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="2f760c3f-3670-49d7-a245-345de288d042" name="Default Changelist" comment="a bunch of php code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_get.php" beforeDir="false" afterPath="$PROJECT_DIR$/_get.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_post.php" beforeDir="false" afterPath="$PROJECT_DIR$/_post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_request.php" beforeDir="false" afterPath="$PROJECT_DIR$/_request.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_server.php" beforeDir="false" afterPath="$PROJECT_DIR$/_server.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/append.php" beforeDir="false" afterPath="$PROJECT_DIR$/append.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array.php" beforeDir="false" afterPath="$PROJECT_DIR$/array.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array2.php" beforeDir="false" afterPath="$PROJECT_DIR$/array2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array3.php" beforeDir="false" afterPath="$PROJECT_DIR$/array3.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/associated-array.php" beforeDir="false" afterPath="$PROJECT_DIR$/associated-array.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/associated-array2.php" beforeDir="false" afterPath="$PROJECT_DIR$/associated-array2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/const.php" beforeDir="false" afterPath="$PROJECT_DIR$/const.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/float.php" beforeDir="false" afterPath="$PROJECT_DIR$/float.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/global.php" beforeDir="false" afterPath="$PROJECT_DIR$/global.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/global2.php" beforeDir="false" afterPath="$PROJECT_DIR$/global2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/global3.php" beforeDir="false" afterPath="$PROJECT_DIR$/global3.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello.php" beforeDir="false" afterPath="$PROJECT_DIR$/hello.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/integer.php" beforeDir="false" afterPath="$PROJECT_DIR$/integer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-first-php-script.php" beforeDir="false" afterPath="$PROJECT_DIR$/my-first-php-script.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/null.php" beforeDir="false" afterPath="$PROJECT_DIR$/null.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php-object.php" beforeDir="false" afterPath="$PROJECT_DIR$/php-object.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/regex.php" beforeDir="false" afterPath="$PROJECT_DIR$/regex.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/return-type-declarations.php" beforeDir="false" afterPath="$PROJECT_DIR$/return-type-declarations.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static.php" beforeDir="false" afterPath="$PROJECT_DIR$/static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/strict-types.php" beforeDir="false" afterPath="$PROJECT_DIR$/strict-types.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysqli-update.php" beforeDir="false" afterPath="$PROJECT_DIR$/mysqli-update.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +30,7 @@
       <server host="localhost" id="d699a7ed-db2a-4090-b332-4d4380f10177" name="localhost" />
     </servers>
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.0" />
   <component name="ProjectId" id="1v3BV5rfeg2lUsevYVXS3jY7YQe" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -105,6 +40,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql&#10;mariadb" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -126,12 +62,16 @@
       <option name="presentableId" value="Default" />
       <updated>1625780912689</updated>
       <workItem from="1625780914989" duration="9529000" />
-      <workItem from="1625842638562" duration="15179000" />
+      <workItem from="1625842638562" duration="16948000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="a bunch of php code" />
+    <option name="LAST_COMMIT_MESSAGE" value="a bunch of php code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
