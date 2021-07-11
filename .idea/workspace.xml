@@ -2,9 +2,122 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54fed479-962c-4267-8009-8a3b17c8fc38" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JsonSerializable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/.styleci.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/app/Console/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/app/Exceptions/Handler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/app/Http/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/app/Http/Middleware/PreventRequestsDuringMaintenance.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/app/Http/Middleware/TrimStrings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/app/Http/Middleware/TrustHosts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/app/Http/Middleware/TrustProxies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/app/Models/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/artisan" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/bootstrap/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/bootstrap/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/config/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/config/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/config/broadcasting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/config/cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/config/cors.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/config/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/config/filesystems.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/config/hashing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/config/logging.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/config/mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/config/queue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/config/services.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/config/session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/config/view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/database/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/database/factories/UserFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/public/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/public/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/public/mix-manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/public/web.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/resources/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/resources/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/resources/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/resources/lang/en/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/resources/lang/en/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/resources/lang/en/passwords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/resources/lang/en/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/resources/views/layout/app.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/resources/views/posts/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/routes/api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/routes/channels.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/routes/console.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/routes/web.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/server.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/storage/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/storage/app/public/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/storage/framework/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/storage/framework/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/storage/framework/cache/data/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/storage/framework/sessions/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/storage/framework/testing/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/storage/framework/views/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/storage/logs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/tests/CreatesApplication.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/tests/TestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/tests/Unit/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Larvel/posty/webpack.mix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoloader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index-Contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/psr4/app/Acme/Auth/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/psr4/app/Acme/Blog/Comment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/psr4/app/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/psr4/app/models/Comment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/psr4/app/models/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/psr4/composer.classmap.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/psr4/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/psr4/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/psr4/vendor/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/psr4/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/psr4/vendor/composer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/psr4/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/psr4/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/psr4/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/psr4/vendor/composer/autoload_real.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/psr4/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class.php" beforeDir="false" afterPath="$PROJECT_DIR$/class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/create-namespace.php" beforeDir="false" afterPath="$PROJECT_DIR$/create-namespace.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/httpd-vhosts.conf" beforeDir="false" afterPath="$PROJECT_DIR$/httpd-vhosts.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include-namespace.php" beforeDir="false" afterPath="$PROJECT_DIR$/include-namespace.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json.php" beforeDir="false" afterPath="$PROJECT_DIR$/json.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,21 +125,56 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution />
+    <pharConfigPath>$PROJECT_DIR$/psr4/composer.json</pharConfigPath>
+    <execution>
+      <executable path="composer" />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="composer.json" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.0">
+    <include_path>
+      <path value="$PROJECT_DIR$/psr4/vendor/composer" />
+    </include_path>
+  </component>
   <component name="ProjectId" id="1v6jVaXLPbIupZQ876ZjtYSIMBN" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dumpAutoload C:/Users/dego_/source/repos/php/psr4/composer.json" value="--no-interaction --ansi --verbose" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/psr4" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dego_\source\repos\php\psr4" />
+      <recent name="C:\Users\dego_\source\repos\php" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ComposerRunConfigurationType" factoryName="Composer Script">
+      <option name="pathToComposerJson" value="$PROJECT_DIR$/psr4/composer.json" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -37,10 +185,42 @@
       <option name="presentableId" value="Default" />
       <updated>1625889459276</updated>
       <workItem from="1625889462223" duration="359000" />
+      <workItem from="1625889837943" duration="466000" />
+      <workItem from="1625890322072" duration="28000" />
+      <workItem from="1625890432379" duration="51000" />
+      <workItem from="1625936546740" duration="11016000" />
     </task>
+    <task id="LOCAL-00001" summary="added virtual host">
+      <created>1625889907434</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1625889907434</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added virtual host">
+      <created>1625889922579</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1625889922579</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added virtual host">
+      <created>1625889931184</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1625889931184</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="added virtual host" />
+    <option name="LAST_COMMIT_MESSAGE" value="added virtual host" />
   </component>
 </project>
