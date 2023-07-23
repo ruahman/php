@@ -14,4 +14,7 @@ echo $_SERVER['SCRIPT_NAME'];
 var_dump($_SERVER);
 
 print_r($_SERVER);
-?>
+
+foreach($_SERVER as $key => $value){
+    echo $key . " " . $value . "<br />";
+}
