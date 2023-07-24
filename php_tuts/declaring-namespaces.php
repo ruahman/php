@@ -1,18 +1,23 @@
 <?php
 
+// a namespace must be the first statment in a php file
 namespace Html;
 
-class Table {
+class Table
+{
     public $title = "";
     public $numRows = 0;
-    public function message() {
+    public function message()
+    {
         echo "<p>Table '{$this->title}' has {$this->numRows} rows.</p>";
     }
 }
 
-class Row {
+class Row
+{
     public $numCells = 0;
-    public function message() {
+    public function message()
+    {
         echo "<p>The row has {$this->numCells} cells.</p>";
     }
 }
@@ -65,6 +70,3 @@ namespace App;
 $publish_at = new \DateTime();
 
 echo $publish_at->format('Y-m-d H:i:s');
-
-
-

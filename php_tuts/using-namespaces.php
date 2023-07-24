@@ -1,6 +1,6 @@
 <?php
 
-require_once "create-namespace.php";
+require_once "declaring-namespaces.php";
 
 
 use Html\Table as Table;
@@ -32,6 +32,7 @@ echo $row->message();
 //$customer = new Customer('Bob');
 
 use Store\Model\{Customer, Product};
+
 $customer = new Customer('Bob');
 $product = new Product();
 
@@ -53,6 +54,3 @@ $loggers = [
     new Logger(),
     new DatabaseLogger()
 ];
-
-
-

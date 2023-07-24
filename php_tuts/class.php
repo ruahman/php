@@ -55,6 +55,12 @@ class Strawberry extends Fruit
     }
 }
 
+// prevents from extending
+final class Fruit2
+{
+    // some code
+}
+
 $apple = new Fruit('Apple', 'Red');
 //$apple->set_name('Apple');
 //$apple->set_color('Red');
@@ -124,5 +130,3 @@ class SavingAccount extends BankAccount
 $account = new SavingAccount(100, 0.05);
 $account->addInterest();
 echo $account->getBalance();
-
-
